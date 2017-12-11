@@ -9,7 +9,7 @@ module.exports = {
     img: './src/img/**/*',
     files: {
       jade: './src/templates/index.jade',
-      sass: './src/scss/main.scss'
+      sass: './src/sass/main.scss'
     }
   },
 
