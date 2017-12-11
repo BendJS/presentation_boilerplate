@@ -1,5 +1,5 @@
-// CSS file to create the generic presentation
-@import "vendor/remark";
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,400italic");
 
-// Use your favorite theme
-@import "remark-themes/default";
+@import "base/default";
+@import "themes/bendjs";
