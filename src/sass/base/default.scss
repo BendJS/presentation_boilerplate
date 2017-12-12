@@ -1,7 +1,8 @@
 @import "variables";
 
 body {
-	font-family: $font-body;
+  font-family: $font-body;
+  font-weight: 300;
 }
 
 h1,
@@ -19,12 +20,12 @@ h3 {
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.75em;
     opacity: 0.8;
   }
 
   h3 {
-    font-size: 1.6em;
+    font-size: 1.25em;
     opacity: 0.8;
   }
 }
@@ -50,7 +51,7 @@ li {
 
 a,
 a > code {
-	color: #f92672;
+	color: $color-link;
 	text-decoration: none;
 }
 
@@ -61,7 +62,7 @@ code {
 
 .remark-code,
 .remark-inline-code {
-	font-family: "Ubuntu Mono";
+	font-family: $font-code;
 }
 
 .remark-code-line-highlighted {
