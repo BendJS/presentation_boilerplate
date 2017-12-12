@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass:200,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+body {
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+
+.remark-slide-content h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.remark-slide-content h2 {
+  font-size: 1.75em;
+  opacity: .8;
+}
+
+.remark-slide-content h3 {
+  font-size: 1.25em;
+  opacity: .8;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+}
+
+li p {
+  line-height: 1.25em;
+}
+
+.red {
+  color: #fa0000;
+}
+
+.large {
+  font-size: 2em;
+}
+
+a,
+a > code {
+  color: #2337de;
+  text-decoration: none;
+}
+
+code {
+  border-radius: 5px;
+  background: #e7e8e2;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: "Roboto Mono", monospace;
+}
+
+.remark-code-line-highlighted {
+  background-color: #373832;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+.pull-right ~ p {
+  clear: both;
+}
+
+#slideshow .slide .content code .slide .content .code {
+  font-size: .8em;
+}
+
+#slideshow .slide .content code .slide .content pre code {
+  padding: 15px;
+  font-size: .9em;
+}
+
+.inverse {
+  color: #777872;
+  background: #272822;
+  text-shadow: 0 0 20px #333;
+}
+
+.inverse h1 h1,
+.inverse h1 h2,
+.inverse h2 h1,
+.inverse h2 h2 {
+  line-height: .8em;
+  color: #f3f3f3;
+}
+
+/* Slide-specific styling */
+#slide-inverse .footnote {
+  bottom: 12px;
+  left: 20px;
+}
+
+#slide-how .slides {
+  position: absolute;
+  top: 151px;
+  right: 140px;
+  font-size: .9em;
+}
+#slide-how .slides h3 {
+  margin-top: .2em;
+}
+#slide-how .slides .first,
+#slide-how .slides .second {
+  width: 120px;
+  height: 90px;
+  padding: 1px 20px;
+  box-shadow: 0 0 10px #777;
+}
+#slide-how .slides .first {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 20%;
+  background: #fff;
+}
+#slide-how .slides .second {
+  position: relative;
+  z-index: 0;
+  background: #fff;
+}
+
+/* Two-column layout */
+.left-column {
+  float: left;
+  width: 20%;
+  height: 92%;
+  color: #777;
+}
+.left-column h2:last-of-type,
+.left-column h3:last-child {
+  color: #000;
+}
+
+.right-column {
+  float: right;
+  width: 75%;
+  padding-top: 1em;
+}
+
+.remark-slide-content {
+  background-color: #efda5b;
+  background-image: url("../../img/bendjs.svg");
+  background-position: 90% 95%; 
+  background-size: 50%;
+}
+
+/*# sourceMappingURL=main.css.map */
