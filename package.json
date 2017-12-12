@@ -32,7 +32,8 @@
   "scripts": {
     "clean": "rm -r node_modules/; rm -r build/",
     "serve": "gulp default",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gulp deploy-pages"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
