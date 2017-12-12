@@ -131,7 +131,7 @@ git checkout -b gh-pages
 git push --set-upstream origin gh-pages
 ```
 
-To do next deploys, you just have to run with gulp:
+To do next deploys, you just have to run with gulp (or `npm run deploy`):
 
 ```sh
 # will create a .publish folder with build content
@@ -142,6 +142,7 @@ gulp deploy-pages
 ### Tasks
 
 - `gulp`: Initialize watch for changes and a server (localhost:3000);
+- `gulp build`: Build files;
 - `gulp js`: Execute js files;
 - `gulp sass`: Compile scss files;
 - `gulp imagemin`: Compress image files;
