@@ -10,7 +10,7 @@ ______                          _     ______       _ _                 _       _
 
 ```
 
-This is a boilerplate to use [remark](https://github.com/gnab/remark) easily with [Gulp](http://gulpjs.com/), [Jade](http://jade-lang.com/) and [Stylus](http://learnboost.github.io/stylus/).
+This is a boilerplate to use [remark](https://github.com/gnab/remark) easily with [Gulp](http://gulpjs.com/), [Jade](http://jade-lang.com/) and scss.
 
 To know more about remark and how to use, [read the docs here](https://github.com/gnab/remark/wiki).
 
@@ -54,12 +54,13 @@ With the commands above, you have everything to start.
 │   ├── paths.js
 │   └── tasks
 │       ├── browser-sync.js
+│       ├── build.js
 │       ├── default.js
 │       ├── deploy-pages.js
 │       ├── imagemin.js
 │       ├── jade.js
 │       ├── js.js
-│       ├── stylus.js
+│       ├── scss.js
 │       └── watch.js
 ├── gulpfile.js
 ├── package.json
@@ -74,10 +75,11 @@ With the commands above, you have everything to start.
     ├── presentation.md
     ├── sass
     │   ├── main.scss
-    │   ├── remark-themes
-    │   │   └── default.scss
-    │   └── vendor
-    │       └── remark.scss
+    │   ├── base
+    │   |   ├── default.scss
+    │   |   ├── _variables.scss
+    │   └── themes
+    │       └── bendjs.scss
     └── templates
         ├── inc
         │   ├── head.jade
@@ -141,7 +143,7 @@ gulp deploy-pages
 
 - `gulp`: Initialize watch for changes and a server (localhost:3000);
 - `gulp js`: Execute js files;
-- `gulp sass`: Compile stylus files;
+- `gulp sass`: Compile scss files;
 - `gulp imagemin`: Compress image files;
 - `gulp watch`: Call for watch files;
 - `gulp jade`: Compile jade files;
