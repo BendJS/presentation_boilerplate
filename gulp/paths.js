@@ -4,6 +4,7 @@ module.exports = {
   source: {
     templates: './src/templates/**/*.jade',
     slides: './src/slides/*.md',
+    presentation: './src/presentation.md',
     js: './src/js/**/*.js',
     sass: './src/sass/**/*.scss',
     img: './src/img/**/*',

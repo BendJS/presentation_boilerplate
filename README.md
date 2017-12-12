@@ -75,6 +75,8 @@ With the commands above, you have everything to start.
     ├── presentation.md
     ├── sass
     │   ├── main.scss
+    │   ├── vendor
+    │   |   ├── bulma.css
     │   ├── base
     │   |   ├── default.scss
     │   |   ├── _variables.scss
